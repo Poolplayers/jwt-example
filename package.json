@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "JWTSECRET=suP3rS3cr34K37 node index.js"
+  },
   "dependencies": {
     "express": "^4.16.4",
     "jsonwebtoken": "^8.4.0"
